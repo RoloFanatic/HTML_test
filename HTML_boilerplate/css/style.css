@@ -93,3 +93,38 @@ ul {
 ol {
     list-style-type:lower-roman;
 }
+
+.navigation ul {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+.navigation li {
+    display:inline-block
+}
+.navigation a {
+    background: rgb(95, 95, 95);
+    background: linear-gradient (rgb(43, 43, 43), rgb(219, 219, 219));
+    border-right: 1px solid rgb(255, 255, 255);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+/*linear gradient function does not seem to be working (not sure why) */
+
+.navigation a:hover {
+    background: rgb(80, 80, 80);
+    box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.navigation li:first-child a {
+    border-radius: 10px 0 0 10px;
+}
+
+.navigation li:last-child a {
+    border-radius: 0 10px 10px 0;
+}
+
+.home {
+    margin-left: 220px;
+}
