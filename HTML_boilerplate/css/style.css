@@ -104,7 +104,6 @@ ol {
 }
 .navigation a {
     background: rgb(95, 95, 95);
-    background: linear-gradient (rgb(43, 43, 43), rgb(219, 219, 219));
     border-right: 1px solid rgb(255, 255, 255);
     color: white;
     padding: 12px 20px;
