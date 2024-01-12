@@ -50,10 +50,11 @@ div {
 /* The CSS box (I called the div box which is just confusing) model */
 
 /*
-Margin: This creates a "margin" around the div which nothing can enter.
+Margin: This creates a "margin" of empty space around the div which nothing can enter.
 Border: (the most complex) Creates a border around a div, MUST INCLUDE style!!! (there is a default color and width). You may include all three properties in a single line beginning "border:".
 Padding: Creates empty space WITH a background color... (very similar to margin)
 
+All of these add on top of the width nd height of the element
 */
 
 .box {
@@ -68,5 +69,27 @@ Padding: Creates empty space WITH a background color... (very similar to margin)
    border-bottom: 5px dotted green;
 
    padding: 100px 50px 25px 13px;
-   /* top right bottom left */
+   /* top right bottom left, using only two numbers gives top and bottom, and left and right */
+}
+
+.bullet {
+    color: rgb(255, 60, 206);
+    border: 10px double rgb(255, 58, 255);
+    Margin: 25px;
+    Padding: 10px;
+}
+
+.numbered {
+    color: white;
+    border: 10px dotted white;
+    Margin: 25px;
+    Padding: 10px;
+}
+
+ul {
+    list-style-type:square;
+}
+
+ol {
+    list-style-type:lower-roman;
 }
